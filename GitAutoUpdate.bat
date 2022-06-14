@@ -9,8 +9,9 @@ set message="auto update"
 
 set remain=%repos%
 
-echo "------------------------------------" >> %logfile%
-date /t && time /t >> %logfile%
+echo ------------------------------------ >> %logfile%
+date /t >> %logfile%
+time /t >> %logfile%
 
 :loop
 for /f "tokens=1* delims=;" %%a in ("%remain%") do (
