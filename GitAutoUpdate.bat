@@ -1,3 +1,4 @@
+timeout /nobreak /t 30
 @echo off
 chcp 65001
 
@@ -16,6 +17,7 @@ time /t >> %logfile%
 :loop
 for /f "tokens=1* delims=;" %%a in ("%remain%") do (
     echo %%a
+    echo %%a >> %logfile%
     pushd %rootdir%%%a
     git add . >> %logfile%
     git commit -am %message% >> %logfile%
