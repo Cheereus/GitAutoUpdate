@@ -27,4 +27,4 @@ for /f "tokens=1* delims=;" %%a in ("%remain%") do (
 
 if defined remain goto :loop
 echo 自动同步完成！按任意键退出！
-pause
+@REM pause

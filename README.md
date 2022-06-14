@@ -21,7 +21,7 @@ set message="auto update"
 
 ## 如何使用
 
-直接双击即可，脚本自动对每个仓库的修改内容进行`add`、`commit`、`push`操作
+直接双击 `GitAutoUpdate.bat` 即可，脚本自动对每个仓库的修改内容进行`add`、`commit`、`push`操作
 
 为了等待网络环境，我在第一行加了 30s 的等待时间，可以根据具体情况具体修改
 
