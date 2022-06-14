@@ -9,11 +9,14 @@ set message="auto update"
 
 set remain=%repos%
 
+echo "------------------------------------" >> %logfile%
+date /t && time /t >> %logfile%
+
 :loop
 for /f "tokens=1* delims=;" %%a in ("%remain%") do (
     echo %%a
     pushd %rootdir%%%a
-    git add . > %logfile%
+    git add . >> %logfile%
     git commit -am %message% >> %logfile%
     git push
     set remain=%%b

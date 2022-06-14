@@ -1,0 +1,19 @@
+[main 219b3bc] auto update
+ 3 files changed, 54 insertions(+), 1 deletion(-)
+ create mode 100644 GitAutoUpdate.bat
+ rewrite README.md (100%)
+ create mode 100644 autoUpdate.log
+"------------------------------------" 
+21:07
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
