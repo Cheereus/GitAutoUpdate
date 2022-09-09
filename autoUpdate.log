@@ -120,3 +120,19 @@ Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
 -----------------GitAutoUpdate----------------- 
+--------------------------------------------------- 
+周五 2022/09/09 
+12:08
+-----------------NotebookPrivate----------------- 
+[main c553d79] auto update
+ 9 files changed, 605 deletions(-)
+ delete mode 100644 Study/Linux.md
+ delete mode 100644 Work/Career.md
+ delete mode 100644 "Work/SenseTime/Data\346\265\213\350\257\225\346\226\271\346\241\210.md"
+ delete mode 100644 Work/SenseTime/Lustre.md
+ delete mode 100644 Work/SenseTime/TCSCMD.md
+ delete mode 100644 Work/SenseTime/THK.md
+ delete mode 100644 Work/SenseTime/cmdcmd.md
+ delete mode 100644 Work/SenseTime/tmp.md
+ delete mode 100644 "Work/SenseTime/\351\233\206\347\276\244\350\267\221\350\256\255\347\273\203.md"
+-----------------GitAutoUpdate----------------- 
