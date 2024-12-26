@@ -4,7 +4,7 @@ chcp 65001
 
 @REM 建议是都放在同一级目录下，此处以分号分割
 set rootdir=e:\
-set repos=GitAutoUpdate;
+set repos=GitAutoUpdate;FanNotebook;
 set logfile=E:\GitAutoUpdate\autoUpdate.log
 set message="auto update"
 
